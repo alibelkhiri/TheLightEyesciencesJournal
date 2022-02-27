@@ -1,0 +1,199 @@
+/* stylelint-disable selector-list-comma-newline-after */
+@font-face {
+  font-family: Chomsky;
+  src: url(Chomsky.otf);
+}
+@font-face {
+  font-family: Cheltenham;
+  src: url(../../fonts/Cheltenham.ttf);
+}
+body{
+  font-family: Cheltenham;
+  font-size: 18px;
+
+}
+.bg-eye{
+  background-image: url('../images/home.jpg');
+  background-size: 100%;
+background-repeat: no-repeat;
+  }
+.pic-title{
+  font-family: "Chomsky";
+  
+}
+.blog-header-details{
+  
+  border-bottom: 1px solid #e5e5e5;
+  padding-top: 2px;
+}
+
+.blog-header {
+  line-height: 3;
+  border-bottom: 1px solid #e5e5e5;
+
+  
+}
+.brderLeft{
+  border-left: 1px solid #949494;
+}
+.brderdown{
+  border-bottom: 1px solid #080808;
+  padding-bottom: 10px;
+}
+
+.blog-header-logo {
+  font-family: "Chomsky"/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+  font-size: 40px;
+  text-decoration: none;
+  
+  
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Cheltenham;
+}
+
+.display-4 {
+  font-size: 2.5rem;
+}
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 3rem;
+  }
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 4rem;
+  overflow-y: hidden;
+  border-bottom-style: double;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+.nav>a{
+  color: black;
+  /*color: rgb(51, 51, 51);*/
+  display: block;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 34px;
+  text-decoration: none;
+  text-transform: capitalize;
+  
+
+}
+
+.nav-scroller .nav-link {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+}
+
+.card-img-right {
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+}
+
+.flex-auto {
+  flex: 0 0 auto;
+}
+
+.h-250 { height: 250px; }
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+.blog-pagination > .btn {
+  border-radius: 2rem;
+}
+
+/*
+ * Blog posts
+ */
+.blog-post {
+  margin-bottom: 2rem;
+  font-family: Cheltenham;
+  margin-top: 1rem;
+}
+.blog-post-content{
+  list-style: none;
+    position: relative;
+    color:#727272;
+    /*font-family: nyt-imperial;*/
+    font-size: 18px;
+  
+
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.blog-post-title {
+ /* margin-bottom: .25rem;
+  font-size: 2.5rem;*/
+  position: relative;
+  font-style: normal;
+  margin: 0;
+  color: var(--color-content-primary);
+  display: block;
+  text-align: left;
+  -webkit-font-smoothing: antialiased;
+ 
+ 
+  font-weight: 700;
+ 
+}
+.blog-post-title:hover{
+  color:#727272;
+}
+.blog-post-meta {
+ /* margin-bottom: 1.25rem;
+  color: #727272;*/
+  list-style: none;
+    position: relative;
+    color:#727272;
+    /*font-family: nyt-imperial;*/
+    font-size: 0.875rem;
+    -webkit-letter-spacing: 0.1px;
+    -moz-letter-spacing: 0.1px;
+    -ms-letter-spacing: 0.1px;
+    letter-spacing: 0.1px;
+    line-height: 1.1875rem;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+/*
+ * Footer
+ */
+.blog-footer {
+  padding: 2.5rem 0;
+  color: #727272;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: .05rem solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
